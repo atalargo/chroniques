@@ -4,7 +4,7 @@ menus:
     home:
         title: Chroniques Oubliées Fantasy
         identifier: cof
-category: cof
+type: cof
 is_cof: true
 ---
 

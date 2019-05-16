@@ -32,9 +32,9 @@
         </section>
         <div class="container-fluid">
             <div class="row flex-xl-nowrap">
-                <nav class="col-12 col-md3 col-xl-2 bd-sidebar navbar">
-                    {% if page.category %}
-                    {% assign menu = site.menus[page.category] %}
+                <nav class="col-12 col-md4 col-xl-3 bd-sidebar navbar">
+                    {% if page.type %}
+                    {% assign menu = site.menus[page.type] %}
                     {% include menus.html %}
                     {% endif %}
                     <div class="bd-sidenav">
@@ -51,7 +51,7 @@
                         {% endfor %}
                     </div> -->
                 </nav>
-                <main class="main-content col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+                <main class="main-content col-12 col-md-8 col-xl-7 py-md-3 pl-md-5 bd-content" role="main">
                     {{ content }}
 
                     <footer class="site-footer">

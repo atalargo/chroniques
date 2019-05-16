@@ -1,7 +1,8 @@
 ---
 short_name: chamans
 title: Chaman, profile multiple
-category: cof
+category: fantasy
+type: cof
 is_cof: true
 tags: profile
 menus:

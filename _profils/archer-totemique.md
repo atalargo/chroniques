@@ -1,7 +1,8 @@
 ---
 short_name: archer
 title: Archer totémique
-category: cof
+category: fantasy
+type: cof
 is_cof: true
 tags: blob,profile
 menus:

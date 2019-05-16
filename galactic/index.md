@@ -4,7 +4,7 @@ menus:
     home:
         title: Chroniques Oubliées Galactiques
         identifier: cog
-category: cog
+type: cog
 is_cog: true
 ---
 

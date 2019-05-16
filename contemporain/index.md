@@ -4,7 +4,7 @@ menus:
     home:
         title: Chroniques Oubliées Contemporain
         identifier: coc
-category: coc
+type: coc
 is_coc: true
 ---
 

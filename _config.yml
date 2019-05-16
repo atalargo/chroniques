@@ -10,10 +10,11 @@ plugins:
 sass:
     sass_dir: _sass
 
+baseurl: "/chroniques"
 collections:
     profils:
         output: true
-        permalink: /fantasy/profils/:name
+        permalink: /:categories/profils/:name
 
 defaults:
     - scope:
@@ -25,5 +26,3 @@ defaults:
           path: ""
       values:
           layout: "default"
-
-baseurl: "/chroniques"
