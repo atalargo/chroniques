@@ -1,7 +1,6 @@
 ---
 short_name: chamans
 title: Chaman, profile multiple
-toc: true
 category: cof
 is_cof: true
 tags: profile

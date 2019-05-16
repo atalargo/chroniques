@@ -6,7 +6,6 @@ description: Idées pour COF, COC, COG etc, finies... ou pas
 
 plugins:
     - jekyll-menus
-    - jekyll-toc
 
 sass:
     sass_dir: _sass

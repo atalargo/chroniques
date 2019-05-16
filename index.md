@@ -4,7 +4,6 @@ menus:
     header:
         title: 'Accueil'
         identifier: home
-toc: true
 is_home: true
 ---
 

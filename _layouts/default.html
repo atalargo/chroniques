@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "fr-FR" }}">
-<!-- {% include tags.html %} -->
     <head>
         <meta charset="UTF-8">
 
@@ -45,7 +44,7 @@
                     </div>
                 </nav>
                 <nav class="d-none d-xl-block col-xl-2 bd-toc" role="toc">
-                    {% toc %}
+                    {% include toc.html html=content class='section-nav' item_class='toc-entry.toc-h%level%' %}
                     <!-- <div class="section-nav">
                         {% for tag in page.tags %}
                         {{ tag }}

@@ -1,7 +1,6 @@
 ---
 short_name: archer
 title: Archer totémique
-toc: true
 category: cof
 is_cof: true
 tags: blob,profile
