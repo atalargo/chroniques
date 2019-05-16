@@ -1,0 +1,16 @@
+---
+title: COF - Profiles
+menus:
+    cof:
+        identifier: cof-profils
+category: cof
+is_cof: true
+---
+
+<p>Vous trouverez ici des profiles plus ou moins travaillés plus ou moins finis pouvant être utilisé dans n'importe quel univers de COF, à priori.</p>
+
+<ul>
+{% for profil in site.profils %}
+<li> <a href="{{ profil.url }}">{{ profil.title }}</a></li>
+{% endfor %}
+</ul>

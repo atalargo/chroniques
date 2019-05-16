@@ -1,3 +1,13 @@
+---
+title: Chroniques du BeauBarbu
+menus:
+    header:
+        title: 'Accueil'
+        identifier: home
+toc: true
+is_home: true
+---
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/atalargo/chroniques/edit/master/index.md) to maintain and preview the content for your website in Markdown files.

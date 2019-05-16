@@ -1,1 +1,28 @@
 theme: jekyll-theme-cayman
+
+title: Chroniques Oubliées du BeauBarbu
+short_title: COBB
+description: Idées pour COF, COC, COG etc, finies... ou pas
+
+plugins:
+    - jekyll-menus
+    - jekyll-toc
+
+sass:
+    sass_dir: _sass
+
+collections:
+    profils:
+        output: true
+        permalink: /fantasy/profils/:name
+
+defaults:
+    - scope:
+          path: ""
+          type: "profils"
+      values:
+          layout: "profil"
+    - scope:
+          path: ""
+      values:
+          layout: "default"

@@ -1,0 +1,37 @@
+.bd-toc {
+    font-size: .875rem;
+    height: calc(100vh - 4rem);
+    -ms-flex-order: 2;
+    order: 2;
+    overflow-y: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4rem;
+
+    .section-nav {
+        border-left: 1px solid #eee;
+        padding-left: 0;
+
+        .toc-entry {
+            display: block;
+
+            a {
+                color: #77757a;
+                display: block;
+                padding: .125rem 1.5rem;
+
+                &:hover {
+                    background-color: #77757a;
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        ul {
+            padding-left: 1rem;
+        }
+    }
+}

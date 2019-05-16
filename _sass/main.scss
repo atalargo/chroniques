@@ -1,0 +1,106 @@
+a {
+    color: #067c7c;
+
+    &:hover {
+        color: #144d7c;
+    }
+}
+
+.bd-content {
+    order: 1;
+}
+
+.bd-sidebar {
+    -ms-flex: 0 1 320px;
+    flex: 0 1 320px;
+    height: calc(100vh - 40rem);
+    order: 0;
+    padding-top: 0;
+    padding-bottom: 1.5rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4rem;
+    z-index: 1000;
+
+    .bd-sidenav {
+        border-right: 1px solid #eee;
+        padding-left: 0;
+        padding-right: 4rem;
+
+        .menu-item {
+            display: block;
+
+            a {
+                display: block;
+                padding: 0;
+
+                &:hover {
+                    text-decoration: none;
+                    color: white;
+                    background-color: #067c7c;
+                }
+            }
+
+            ul {
+                border: none;
+                margin-left: 1.5rem;
+                font-size: .85rem;
+                padding-right: 0;
+
+                li {
+                    display: none;
+                }
+            }
+            .active {
+                font-weight: bold;
+
+                & + ul {
+                    li {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.block-header {
+    background: linear-gradient(120deg, #155799, #159957);
+
+    .block-header-cof {
+        background: url('/assets/img/cof-separateur.png') repeat-x left bottom -22px;
+    }
+
+    .page-header {
+        padding: .5rem;
+        background: none;
+    }
+}
+
+.page-header {
+    padding: .5rem;
+    &.main-menu {
+        height: 4.5rem;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1000000;
+        .block-header-cof {
+            background: url('/assets/img/cof-separateur.png') repeat-x left bottom -22px, #00000000;
+        }
+
+
+        .btn {
+            &.active {
+                background-color: rgba(255, 255, 255, 0.2);
+                border: none;
+                color: white;
+                font-weight: bold;
+
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.2);
+                }
+            }
+        }
+    }
+}
